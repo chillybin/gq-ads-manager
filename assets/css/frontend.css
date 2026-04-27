@@ -1,0 +1,8 @@
+/* Device targeting — hide/show ad units by viewport width */
+.gq-ad-mobile-only  { display: none; }
+.gq-ad-desktop-only { display: block; }
+
+@media (max-width: 767px) {
+	.gq-ad-mobile-only  { display: block; }
+	.gq-ad-desktop-only { display: none; }
+}

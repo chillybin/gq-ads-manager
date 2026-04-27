@@ -1,0 +1,59 @@
+/* Campaign & Targeting meta box */
+.gq-mb-row { display: flex; gap: 20px; margin-bottom: 14px; }
+.gq-mb-col { flex: 1; }
+.gq-mb-col > label { display: block; font-weight: 600; margin-bottom: 4px; }
+.gq-mb-col input[type="date"] { width: 100%; }
+
+.gq-mb-exclusive {
+	background: #f0f6fc;
+	border: 1px solid #c3d9ef;
+	border-radius: 3px;
+	padding: 10px 12px;
+	margin-bottom: 14px;
+}
+.gq-mb-exclusive label { font-weight: normal; cursor: pointer; }
+.gq-mb-notice {
+	background: #fff8e5;
+	border-left: 4px solid #f0b849;
+	padding: 6px 10px;
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.gq-cat-grid {
+	columns: 3;
+	column-gap: 12px;
+	max-height: 160px;
+	overflow-y: auto;
+	border: 1px solid #ddd;
+	padding: 8px;
+	border-radius: 3px;
+}
+.gq-cat-grid label {
+	display: block;
+	font-weight: normal;
+	white-space: nowrap;
+	padding: 1px 0;
+}
+
+/* Active Campaigns panel */
+.gq-sov-badge {
+	background: #f0b849;
+	color: #333;
+	border-radius: 3px;
+	padding: 2px 6px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/* Stats table group cell */
+.gq-group-meta {
+	font-size: 11px;
+	color: #666;
+	margin-top: 3px;
+}
+.gq-group-meta .gq-sov-badge {
+	font-size: 10px;
+	padding: 1px 5px;
+	margin-right: 4px;
+}
